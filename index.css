@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--box {
+    background-color: #fafafa;
+    width: 70%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.container--box .text {
+    font-family: "Avenir Next";
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-top: 2vh;
+}
+
+.times-numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.times-numbers .bloc {
+    margin-top: 10vh;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #fdfbfb;
+    margin-right: 10px;
+}
+
+.bloc strong {
+    font-size: 5em;
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+.bloc p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
